@@ -1,1 +1,78 @@
 @use '_variables' as *;
+
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font-family-sans-serif;
+}
+
+
+h1{
+    font-size: $font-size-h1;
+}
+
+.container{
+    width: 90%;
+    text-align: center;
+    margin:0 auto;
+}
+
+.logo-container{
+    width: 100%;
+}
+
+.logo{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.text-container{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 49px;
+}
+
+.footer-img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buttons a:first-child{
+    background-color: $button-bg-green-primary-700;
+    color:$button-text-white;
+    padding: 12px 0px;
+}
+
+.buttons a:nth-child(2){
+    border: 1px solid $button-border-green-primary-800;
+    color: $button-text-green-primary-900;
+    padding:10px 9px;
+}
