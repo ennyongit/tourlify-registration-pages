@@ -1,0 +1,23 @@
+{
+  "name": "tourlifyregistration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx sass styles.scss styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ennyongit/tourlify-registration-pages.git"
+  },
+  "author": "Eni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ennyongit/tourlify-registration-pages/issues"
+  },
+  "homepage": "https://github.com/ennyongit/tourlify-registration-pages#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

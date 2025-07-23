@@ -1,0 +1,62 @@
+// Font Families 
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// Font Sizes 
+$font-size-h1: 32px;
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 16px;
+$font-size-body: 14px;
+$font-size-small: 12px;
+
+// Body text color 
+$body-text-color:rgba(72, 72, 72, 1);
+
+// Button Background Colors
+$button-bg-green-primary-700:rgba(20, 115, 48, 1);
+$button-bg-green-primary-500:rgba(29, 169, 71, 1);
+$button-bg-purple:rgba(102, 100, 209, 1);
+
+// Button Background Colors for Disabled State
+$button-bg-disabled: rgba(194, 194, 194, 1); 
+
+// Button Border Colors
+$button-border-green-primary-800: rgba(15, 88, 37, 1);
+$button-border-green-primary-400: rgba(65, 183, 100, 1);
+$button-border-purple: rgba(102, 100, 209, 1);
+
+// Button Border Colors for Disabled State
+$button-border-disabled: #FFFFFF; 
+
+// Button Text Colors
+$button-text-green-primary-900: rgba(3, 66, 3, 1);
+$button-text-green-primary-400: rgba(65, 183, 100, 1);
+$button-bg-purple-text:rgba(253, 253, 253, 1);
+$button-text-purple:rgba(102, 100, 209, 1);
+
+// Button Text Colors for Disabled State
+$button-text-disabled: rgba(194, 194, 194, 1);
+
+
+// Checkbox Bg Colors 
+$checkbox-bg-green-primary-400: rgba(65, 183, 100, 1);
+
+// Checkbox Border Colors
+$checkbox-border-black-primary: rgba(31, 31, 31, 1);
+
+
+// INPUTS 
+
+// Input Border
+$input-border-focus:rgba(31, 31, 31, 1);
+$input-border-active:rgba(29, 169, 71, 1);
+$input-border-inactive: rgba(141, 139, 139, 1);
+$input-border-error:rgba(231, 39, 39, 1);
+
+// Input Error Text Color
+$input-text-normal:rgba(31, 31, 31, 1);
+$input-text-inactive:rgba(176, 175, 175, 1);
+$input-text-error:rgba(231, 39, 39, 1);
+
+
